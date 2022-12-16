@@ -1,2 +1,2 @@
 # Procfile
-web: gunicorn --workers=1 wsgi:app --access-logfile=-
+web: fask --workers=1 wsgi:app --access-logfile=-
